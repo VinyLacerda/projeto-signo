@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <!--JS-->
+    <script defer src="/main.js"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <title>Seu Signo</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div id="particles-js"></div>
+        <script src="/particles.min"></script>
+        <script src="/particles.js"></script>
+        <script src="/app.js"></script>
+
+        <!--box elements-->
+        <section id="box">
+            <div class="title box">
+                <h1>Qual é o seu signo?</h1>
+
+            </div>
+            <div class="paragraph box">
+                <p>Informe seu nascimento.</p>
+            </div>
+
+            <!--Data-->
+            <div class="form box">
+                <input type="date" name="data" id="data" required>
+            </div>
+
+            <!--Botão verificar-->
+            <div class="button box">
+                <button id="verificar" name="verificar" onclick="send()">verificar</button>
+            </div>
+            <div class="signo box" id="signo"></div>
+        </section>
+
+        <div class="creator">
+            <p>By Viny Lacerda</p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
